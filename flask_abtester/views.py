@@ -13,7 +13,5 @@ abt = Blueprint('abt', 'flask.ext.split',
 
 @abt.route('/')
 def index():
-    k
-    index_temp = 'index.html'
-    return render_template(index_temp)
+    pass
 
